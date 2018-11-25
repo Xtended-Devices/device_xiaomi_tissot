@@ -16,8 +16,8 @@
 
 $(call inherit-product, device/xiaomi/tissot/full_tissot.mk)
 
-# Inherit some common LiquidRemix stuff.
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+# Inherit some common Xtended stuff.
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -46,15 +46,13 @@ PRODUCT_PACKAGES_DEBUG += \
 # Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
-PRODUCT_NAME := liquid_tissot
+PRODUCT_NAME := xtended_tissot
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := tissot
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="VenkatVishalV (venky_holmes)"
-export LIQUID_BUILDTYPE=RELEASE
+XTENDED_BUILD_TYPE := OFFICIAL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tissot-user 8.0.0 OPR1.170623.026 8.1.10 release-keys"

@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_tissot.mk \
-    $(LOCAL_DIR)/liquid.mk
+    $(LOCAL_DIR)/xtended_tissot.mk
