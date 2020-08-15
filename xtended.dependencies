@@ -13,8 +13,8 @@
  },
  { 
   "remote": "github",
-  "repository": "DerpFest-Devices/vendor_xiaomi_tissot",
+  "repository": "Xtended-Devices/vendor_xiaomi_tissot",
   "target_path": "vendor/xiaomi",
-  "branch": "derp10",
+  "revision": "xq",
  }
 ]
